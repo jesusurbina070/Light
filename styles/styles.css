@@ -69,10 +69,7 @@
 
 }
 .hero h1{
-	font-family: 'Archivo Black', sans-serif;
-	font-size: 40px;
-	color: #383838;
-	font-weight: bold;
+	
 
 }
 .subtitle-hero{
@@ -93,7 +90,7 @@
 	text-decoration: none;
 	color: #ffeaef;
 	font-size: 20px;
-	padding: 5px 40px;
+	padding: 10px 60px;
 	border: 1px solid #613d42;
 	border-radius: 100px;
 	
@@ -101,8 +98,70 @@
 
 }
 
-h1 h2{
+h1, h2{
 	font-size: 40px;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 40px;
+	color: #383838;
+	font-weight: 900;
 
 }
+.offer{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.offer h2{
+	margin-top: 53px; 
+
+}
+.offer-subtitle{
+	margin-bottom: 70px;
+
+}
+
+.paragraph-offer{
+	text-align: center;
+    padding: 0 100px;
+}
+
+.offer-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.offer-buttons{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+
+}
+.offer a{
+
+	text-decoration: none;
+	color: #7f7f7f;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px 70px;
+	border: 3px solid  #7f7f7f;
+	border-radius: 100px;
+
+
+}
+.link-offer.a{
+	padding: 10px 53px;
+	margin-left: 40px
+
+}
+.offer-imageContainer{
+	text-align: center;
+	margin-top: 50px;
+}
+
+
 
