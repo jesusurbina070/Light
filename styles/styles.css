@@ -48,11 +48,11 @@
 	color: #999999;
 	text-decoration: none;
 	padding: 20px;
-	font-weight: bold;
+	font-weight: 700;
 
 }
 .header a:hover{
-	color: black;
+	color: #020202;
 
 }
 
@@ -90,9 +90,10 @@
 	text-decoration: none;
 	color: #ffeaef;
 	font-size: 20px;
-	padding: 10px 60px;
+	padding: 10px 70px;
 	border: 1px solid #613d42;
 	border-radius: 100px;
+	font-weight: bold;
 	
 
 
@@ -115,7 +116,7 @@ h1, h2{
 
 }
 .offer h2{
-	margin-top: 53px; 
+	margin-top: 100px; 
 
 }
 .offer-subtitle{
@@ -151,17 +152,92 @@ h1, h2{
 	border: 3px solid  #7f7f7f;
 	border-radius: 100px;
 
+}
+.offer a:hover{
+	background: #ff3e53;
+	color: #ffeaef;
+	border: 1.5px solid #613d42;
+
 
 }
 .link-offer.a{
-	padding: 10px 53px;
+	padding: 10px 51px;
 	margin-left: 40px
+
 
 }
 .offer-imageContainer{
 	text-align: center;
 	margin-top: 50px;
 }
+
+.portfolio{
+	background-color: #fafafa;
+	height: 1000px;
+
+
+}
+
+.portfolio-titles{
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 60px;
+
+}
+
+.portfolio-details{
+	display: flex;
+	 flex-direction: column;
+	background: #fff;
+	height: 300px;
+	width: 300px;
+	padding: 35px;
+
+}
+
+#stack-icon{
+	font-size: 40px;
+	color: #5b5b5b;
+	margin-bottom: 50px;
+}
+
+.portfolio-details h3{
+	color: #606060;
+	font-weight: 900;
+	padding: 20px 0;
+
+}
+
+.subtitle-portfolio{
+	color: #b0b0b0;
+	text-transform: uppercase;	
+} 
+
+.portfolio-details p{
+	color: #acacac;
+	padding-bottom: 20px;
+}
+
+.portfolio-details a{
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: #636363;
+	font-weight: 900;
+	width: 145px;
+
+}
+#arrow-icon{
+	font-size: 25px;
+	margin-left: 10px;
+}
+.portfolio-content{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 40px;
+
+}
+
 
 
 
