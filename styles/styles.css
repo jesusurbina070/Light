@@ -107,6 +107,9 @@ h1, h2{
 	font-weight: 900;
 
 }
+h2{
+	padding top: 100px;
+}
 .offer{
   height: auto;
   display: flex;
@@ -315,7 +318,7 @@ h1, h2{
 }
 
 .services{
-	height: 1000px;
+	height: 900px;
 }
 .services-titles{
 	padding-top: 100px;
@@ -400,6 +403,81 @@ h1, h2{
     border: 10px solid white;
     color: #9d9d9d;
 }
+
+.team{
+	height: 800px;
+
+}
+.team-titles{
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.person{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 500px;
+
+}
+
+.persons{
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-gap: 15px;
+}
+
+.person-details{
+	display: flex;
+
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 5;
+	bottom: 50px;
+	background: #fff;
+	width: 260px;
+	padding: 25px;
+	color: #6a6a6a;
+	box-shadow: 0px 20px 30px -20px;
+	
+	
+   
+	
+}
+.link-person{
+	display: none;
+    justify-content: space-around;
+    width: 80%;
+}
+
+
+/*.person-details:hover .link-person .person-details{
+	display: flex;
+	height: auto;
+    background: #ff3d55;
+    color: #ffe9ef;
+}*/
+
+#person-icons{
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	color:#ffe9ef;
+
+}
+.person-name{
+	margin-bottom: 3px;
+	font-size: 16px;
+
+}
+.person p{
+	font-size: 14px;
+}
+
 
 
 
