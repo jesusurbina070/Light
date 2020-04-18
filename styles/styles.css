@@ -237,6 +237,22 @@ h1, h2{
 	grid-gap: 40px;
 
 }
+.galery{
+	height: auto;
+}
+
+.galery-titles{
+	padding-top: 100px;
+	margin-bottom: 50px;
+	text-align: center;
+
+}
+
+.galery-details{
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-gap: 40px;
+}
 
 
 
