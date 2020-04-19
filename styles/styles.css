@@ -431,7 +431,6 @@ h2{
 
 .person-details{
 	display: flex;
-
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -477,6 +476,77 @@ h2{
 .person p{
 	font-size: 14px;
 }
+.pricing{
+	height: 800px;
+
+}
+
+.pricing h2{
+	text-align: center;
+}
+.subtitle-pricing{
+	text-align: center;
+}
+
+.pricing-details{
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	justify-content: center;
+	margin-top: 100px;
+	grid-gap: 20px;
+}
+.prices{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: #616161;
+	padding:65px 10px;
+	background: #f6f6f6;
+}
+.prices:hover{
+	background: #fff;
+	box-shadow: 0 0 25px -10px;
+
+}
+.prices-quantity{
+	font-size: 70px;
+	font-weight: 100;
+	margin-bottom: 50px;
+}
+
+.price-sing{
+	font-size: 20px;
+	margin: 0 8px;	
+}
+.price-sing.a{
+	position: relative;
+	bottom: 30px;
+
+}
+.paragraph-prices{
+	margin-bottom: 12px;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: .8px;
+}
+.link-prices{
+	color: #7f7f7f;	
+	margin-top: 50px;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px 60px;
+	border: 1.5px solid #7f7f7f;
+	border-radius: 100px;
+	font-weight: bold;
+	letter-spacing: .8px;
+}
+.link-prices:hover{
+	color: #fff;
+	background: #ff3d55;
+
+}
+
 
 
 
