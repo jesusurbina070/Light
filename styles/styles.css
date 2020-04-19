@@ -546,6 +546,22 @@ h2{
 	background: #ff3d55;
 
 }
+.clients{
+	height: 500px;
+}
+.clients h2{
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.client{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-image: url('../images/face.jpg');
+	background-position: center;
+	background-size: contain;
+}
 
 
 
