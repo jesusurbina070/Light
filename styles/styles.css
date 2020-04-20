@@ -624,20 +624,23 @@ h2{
 	padding-bottom: 50px;
 }
 .contact{
-	height: 725px;
+	height: 725px; 
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-image: url(../images/forest.jpg);
+	background-size: cover;
+	background-position: center;
 
 }
 
 .info{
+	background-color: rgba(0, 0, 0, .6);
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	padding: 80px 80px;
-	border:1px solid black;
 	width: 65%;
 }
 
@@ -674,6 +677,7 @@ h2{
 	font-weight: 700;
 	border: 3px solid  #7f7f7f;
 	border-radius: 100px;
+
 }
 
 
