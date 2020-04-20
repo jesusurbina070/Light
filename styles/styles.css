@@ -548,15 +548,24 @@ h2{
 }
 .clients{
 	height: 500px;
+	background: #f6f6f6;
 }
 .clients h2{
 	text-align: center;
 	margin-bottom: 100px;
+	align-items: center;
 }
 
 .client-ditails{
-	/*display: grid;
-	grid-template-columns: 50px 800px 50px*/
+	background: #fff;
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 80px 750px 80px;
+	grid-template-areas: ".       client      . "
+						"buttonA contenido buttonB "
+						" .        name        . ";
+
+
 }
 
 .client{
@@ -566,23 +575,46 @@ h2{
 	background-image: url('../images/face.jpg');
 	background-position: center;
 	background-size: contain;
-	grid-area: client
+	grid-area: client;
+	margin: 0 auto;
+	position: relative;
+	bottom: 60px;
 }
 .paragraph-client{
 	text-align: center;
 	grid-area: contenido;
+	padding: 20px 0;
+    position: relative;
+    bottom: 28px;
 
 }
 
 .container-icon{
-	padding: 15px 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5px 15px;
 	border-radius: 50%;
-	text-align: center;
 	border: 1px solid black;
 	margin-left: 10px;
+	grid-area: buttonA;
+	height: 50%;
+    width: 70%;
+    position: relative;
+    right: 85px;
+}
+.container-icon.b{
+	grid-area: buttonB;
+	right: 0;
+	left: 88px;
 }
 #client-arrow{
-	font-size: 15px;
+	font-size: 18px;
+}
+.paragraph-work{
+	grid-area: name;
+	text-align: center;
+	padding-bottom: 50px;
 }
 
 
