@@ -554,6 +554,11 @@ h2{
 	margin-bottom: 100px;
 }
 
+.client-ditails{
+	/*display: grid;
+	grid-template-columns: 50px 800px 50px*/
+}
+
 .client{
 	height: 100px;
 	width: 100px;
@@ -561,6 +566,23 @@ h2{
 	background-image: url('../images/face.jpg');
 	background-position: center;
 	background-size: contain;
+	grid-area: client
+}
+.paragraph-client{
+	text-align: center;
+	grid-area: contenido;
+
+}
+
+.container-icon{
+	padding: 15px 15px;
+	border-radius: 50%;
+	text-align: center;
+	border: 1px solid black;
+	margin-left: 10px;
+}
+#client-arrow{
+	font-size: 20px;
 }
 
 
