@@ -712,6 +712,18 @@ h2{
 
 }
 
+.footer{
+	height: auto;
+	background: black;
+}
+.footer-details{
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	
+}
+.
+
 
 
 
