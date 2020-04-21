@@ -151,18 +151,18 @@ h2{
 
 	text-decoration: none;
 	color: #7f7f7f;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	padding: 10px 70px;
 	border: 3px solid  #7f7f7f;
 	border-radius: 100px;
+    letter-spacing: 1.5px;
 
 }
 .offer a:hover{
 	background: #ff3e53;
 	color: #ffeaef;
-	border: 1.5px solid #613d42;
-
+	border: 1px solid #613d42;
 
 }
 .link-offer.a{
@@ -198,6 +198,9 @@ h2{
 	width: 300px;
 	padding: 35px;
 
+}
+.portfolio-details:hover{
+	box-shadow: 0 0 25px -15px;
 }
 
 #stack-icon{
@@ -259,8 +262,8 @@ h2{
 
 .galery-details{
 	display: grid;
-	grid-template-columns: 300px 300px 300px;
-	grid-gap: 40px;
+	grid-template-columns: 325px 325px 325px;
+	grid-gap: 14px;
 }
 
 .subscribe{
