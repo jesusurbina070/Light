@@ -47,10 +47,12 @@
 .header a{
 	color: #999999;
 	text-decoration: none;
-	padding: 20px;
-	font-weight: 700;
-
+	padding: 12px;
+	font-weight: 900;
+    font-size: 13px;
+    letter-spacing: 1.5px;
 }
+
 .header a:hover{
 	color: #020202;
 
@@ -89,15 +91,15 @@
 	background: #ff3e53;
 	text-decoration: none;
 	color: #ffeaef;
-	font-size: 20px;
-	padding: 10px 70px;
+	font-size: 16px;
+	padding: 12px 60px;
 	border: 1px solid #613d42;
 	border-radius: 100px;
 	font-weight: bold;
+	letter-spacing: 1.5px;
 	
-
-
 }
+    
 
 h1, h2{
 	font-size: 40px;
