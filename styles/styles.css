@@ -652,6 +652,9 @@ h2{
 
 .contact p{
 	margin-bottom:50px;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 5px;
 }
 .datos{
 	width: 100%;
@@ -702,7 +705,7 @@ h2{
 	padding: 10px;
 	font-size: 18px;
 	font-weight: 700;
-	border: 3px solid  #7f7f7f;
+    border: 1px solid #613d42;
 	border-radius: 100px;
 
 
