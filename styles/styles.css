@@ -713,15 +713,58 @@ h2{
 }
 
 .footer{
-	height: auto;
+	height: 250px;
 	/*background: black*/
+}
+.footer-content{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	align-items: center;
+}
+.footer-imageContainer{
+	position: relative;
+	top:15px;
 }
 .footer-details{
 	display: flex;
 	align-items: center;
-	margin-top: 10px;
 	
 }
+.footer-text{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+h4{
+	font-size: 15px;
+	margin-bottom: 25px;
+}
+.footer-title.b{
+	margin-bottom: 35px;
+}
+
+.footer-details p{
+	font-size: 14px;
+
+}
+.footer-social{
+	display: flex;
+	flex-direction: column;
+}
+
+#social-links{
+	font-size: 30px;
+	text-decoration: none;
+	padding: 15px;
+
+}
+.footer-end{
+	margin-top: 55px;
+	text-align: center;
+	font-size: 12px;
+}
+
+
 
 
 
