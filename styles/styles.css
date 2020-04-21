@@ -317,6 +317,11 @@ h2{
 
 }
 
+.subscribe button:active{
+    transform: scale(.9);
+
+}
+
 .services{
 	height: 900px;
 }
@@ -698,20 +703,27 @@ h2{
 
 }
 .link-contact{
-	background: #ff3e53;
+	background: transparent;
 	color: #ffeaef;
 	height: 51px;
 	width: 244px;
 	padding: 10px;
 	font-size: 18px;
 	font-weight: 700;
-    border: 1px solid #613d42;
+    border: 1px solid #597979;
 	border-radius: 100px;
-
-
 
 }
 
+.link-contact:hover{
+	background: #ff3e53;
+	border: 2px solid #613d42;
+
+}
+.link-contact:active{
+    transform: scale(.9);
+
+}
 .footer{
 	height: 300px;
 	background: #000;
