@@ -467,15 +467,31 @@ h2{
 	display: none;
     justify-content: space-around;
     width: 80%;
+    color: #fed5e1;
 }
 
 
-/*.person-details:hover .link-person .person-details{
+.person-details:hover .link-person{
 	display: flex;
 	height: auto;
     background: #ff3d55;
     color: #ffe9ef;
-}*/
+    margin-top: 25px;
+}
+
+.person-details:hover{
+	background: #ff3d55;
+	color: #ffe9ef;
+	bottom: 80px;
+
+
+}
+
+.person-details:hover .person-name{
+	margin-top: 10px;
+	margin-bottom: 5px;
+
+}
 
 #person-icons{
 	text-decoration: none;
