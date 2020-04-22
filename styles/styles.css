@@ -12,6 +12,20 @@
  	font-family: 'Muli', sans-serif;
  }
 
+ h1, h2{
+	font-size: 40px;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 40px;
+	color: #383838;
+	font-weight: 900;
+	letter-spacing: 2.5px;
+
+}
+
+h2{
+	padding top: 100px;
+}
+
 
  .container{
  	max-width: 1000px;
@@ -79,6 +93,7 @@
 	margin-top: 10px;
 	color: #563b3b;
 	font-weight: 200;
+	letter-spacing: 2.5px;
 }
 .paragraph-hero{
 	padding: 0 100px;
@@ -99,19 +114,7 @@
 	letter-spacing: 1.5px;
 	
 }
-    
 
-h1, h2{
-	font-size: 40px;
-	font-family: 'Archivo Black', sans-serif;
-	font-size: 40px;
-	color: #383838;
-	font-weight: 900;
-
-}
-h2{
-	padding top: 100px;
-}
 .offer{
   height: auto;
   display: flex;
